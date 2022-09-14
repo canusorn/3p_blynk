@@ -157,29 +157,6 @@ void displayValue() {
   frequency3 = pzem3.frequency();
   pf3 = pzem3.pf();
 
-
-  voltage1 = 200+random(10);
-  current1 = 1;
-  power1 = voltage1;
-  energy1 = 10;
-  frequency1 = 50;
-  pf1 = 1;
-  //phase2
-  voltage2 = 210+random(10);
-  current2 = 1.2;
-  power2 = voltage2*current2;
-  energy2 = 11;
-  frequency2 = 50;
-  pf2 = 1.0;
-  //phase3
-  voltage3 = 220+random(10);
-  current3 = 1.1;
-  power3 = voltage3*current3;
-  energy3 = 12;
-  frequency3 = 50;
-  pf3 = 1.0;
-  
-
   //------Update OLED display------
   oled.clear(PAGE);
   oled.setFontType(0);
