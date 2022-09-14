@@ -40,8 +40,8 @@ float voltage1, current1, power1, energy1, frequency1, pf1;
 float voltage2, current2, power2, energy2, frequency2, pf2;
 float voltage3, current3, power3, energy3, frequency3, pf3;
 
-char ssid[] = "G6PD_2.4G";
-char pass[] = "570610193";
+char ssid[] = "ssid";
+char pass[] = "pass";
 char auth[] = BLYNK_AUTH_TOKEN;
 
 uint8_t logo_bmp[] = {
